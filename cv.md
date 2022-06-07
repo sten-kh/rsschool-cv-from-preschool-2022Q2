@@ -50,3 +50,26 @@ multiply = function (a, b) {
   return a * b;
 };
 ```
+
+---
+
+### Work Experience
+
+---
+
+1. **_Seafood Processor_**, Silver Bay Seafoods LLC, AK, USA
+2. **_Process Engineer_**, LLC SPE "TRANSPORT TECHNOLOGIES", Kharkiv, Ukraine
+3. **_Student_**, RS-School, on-line education
+
+---
+
+### Education
+
+---
+
+- Kharkiv technical school of medical equipment
+  - Design, repair and operation of medical equipment **_Junior Specialist degree_**
+- National Technical University «Kharkiv Polytechnic Institute»
+  - Industrial and biomedical electronics **_Specialist degree_**
+- Courses:
+  - RS-School (JS/FE Pre-School in process)
