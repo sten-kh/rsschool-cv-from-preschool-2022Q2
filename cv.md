@@ -73,3 +73,13 @@ multiply = function (a, b) {
   - Industrial and biomedical electronics **_Specialist degree_**
 - Courses:
   - RS-School (JS/FE Pre-School in process)
+
+---
+
+### Languages
+
+---
+
+- Russian: Native
+- Ukrainian: Native
+- English: A2 (B1 in process)
