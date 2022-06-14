@@ -180,6 +180,9 @@ body {
     font-size: 14px;
     color: rgb(170, 168, 168);
 }
+main{
+    display: flex;
+}
 .sidebar{
     margin-left: 50px;
     padding-left: 50px;
@@ -191,11 +194,9 @@ body {
     display: flex;
     flex-direction: column;
     height: auto;
-    /* background-color: aquamarine; */
 }
 .skills-container{
     margin: 45px 0 35px 0;
-    /* background-color: #DBA632; */
 }
 .skills-title{
     font-size: 30px;
@@ -219,10 +220,8 @@ body {
 }
 .languages-container{
     margin: 0 0 30px 0;
-    /* background-color: cadetblue; */
 }
 .code-container{
-    /* background-color: crimson; */
     margin-bottom: 40px;
 }
 .code-container :first-child{
@@ -233,4 +232,104 @@ body {
     background-color: rgb(33, 33, 47);
     color: white;
     line-height: 1.5em;
+}
+.edu-and-work-info{
+    width: 100%;
+    margin: 45px 0 0 50px;
+}
+.education-places{
+    color: rgb(33, 33, 47);
+}
+.education-places h3{
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.education-places li p:nth-child(2) {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.education-places span {
+    padding: 0 20px;
+    font-style: normal;
+    background-color: rgb(33, 33, 47);
+    color: white;
+    border-radius: 5px;
+}
+.education-places li p:last-child {
+    letter-spacing: 0.4px;
+}
+.work-experiense{
+    margin: 40px 0 0 0;
+}
+.work-places {
+    color: rgb(33, 33, 47);
+}
+.work-places h3 {
+    margin: 20px 0 10px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+.work-places span {
+    padding: 0 20px;
+    font-style: normal;
+    background-color: rgb(33, 33, 47);
+    color: white;
+    border-radius: 5px;
+}
+.work-places li p:nth-child(2) {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.work-places li p:last-child{
+    line-height: 120%;
+    letter-spacing: 0.4px;
+}
+.projects{
+    margin: 30px 0 0 0;
+}
+.projects-example{
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+}
+.portfolio-icon{
+    margin: 20px 20px 30px 0;
+    width: 55px;
+    height: 37px;
+}
+.projects-example p{
+    margin: -10px 0 0 0;
+    font-weight: bold;
+    color: black;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+    align-items: center;
+    padding-left:60px;
+    padding-right: 40px;
+    height: 50px;
+}
+
+.footer li:first-child {
+    font-weight: bold;
+    margin-right: 650px;
+}
+
+.footer li:nth-child(2) img {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.footer li:last-child {
+    width: 80px;
+    margin-right: 0;
 }
